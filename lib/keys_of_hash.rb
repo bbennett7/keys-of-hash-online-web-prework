@@ -3,7 +3,9 @@ class Hash
     array = []
     hash.each do |key, value|
       arguments.each do |item|
-        if 
+        if item == value
+          array << key
+        end
       end
     end
   end
