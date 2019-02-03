@@ -8,6 +8,6 @@ class Hash
         end
       end
     end
+    array
   end
-  return array
 end 
